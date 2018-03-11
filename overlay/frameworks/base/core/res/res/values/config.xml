@@ -404,7 +404,12 @@
     <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
 
+<<<<<<< HEAD
     <!-- Flag specifying whether VT is available on device -->
     <bool name="config_device_vt_available">true</bool>
 	
+=======
+   <!-- Whether device has turbo power charging support -->
+   <bool name="config_hasTurboPowerCharger">true</bool>
+>>>>>>> fa05c09... sanders: overlay: Enable turbo power charger support
 </resources>
