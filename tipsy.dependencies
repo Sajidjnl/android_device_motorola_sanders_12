@@ -1,8 +1,8 @@
 [
   {
-    "repository": "Android_device_motorola_sanders",
+    "repository": "ValidusOs-Devices/device_motorola_sanders",
     "target_path": "device/motorola/sanders",
-    "branch": "frankenROM"
+    "branch": "8.1"
   },
   {
     "repository": "BigTopKrazies/vendor_motorola_sanders",
@@ -10,22 +10,17 @@
     "branch": "8.1"
   },
   {
-    "repository": "Sajidjnl/kernel_motorola_msm8953_sanders",
+    "repository": "GZR-Kernels/kernel_motorola_msm8953_sanders",
     "target_path": "kernel/motorola/msm8953",
     "branch": "8.1-ods"
   },
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch": "lineage-15.0"
+    "branch": "lineage-15.1"
   },
   {
-    "repository":  "LineageOS/android_device_lineage_sepolicy",
-    "target_path": "device/lineage/sepolicy",
-    "branch":  "lineage-15.1"
-  },
-  {
-    "repository":"jhenrique09/prebuilts_clang_host_linux-x$ 
+    "repository":"jhenrique09/prebuilts_clang_host_linux-x$
     "target_path": "prebuilts/clang/host/linux-x86/7.0-Drag$
     "branch": "master",
     "remote": "github"
