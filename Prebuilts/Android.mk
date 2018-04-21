@@ -1,6 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := GoogleCamera
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := GoogleCamera.apk
@@ -13,6 +14,8 @@ include $(BUILD_PREBUILT)
 
 
 include $(CLEAR_VARS)
+=======
+>>>>>>> parent of f3486c0... Added GoogleCamera
 LOCAL_MODULE := RetroMusicPlayer
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := RetroMusicPlayer.apk
