@@ -81,7 +81,7 @@ void vendor_load_properties()
     property_override_dual("ro.product.model", "ro.vendor.product.model", sku.c_str());
 
     // fingerprint
-    property_override("ro.build.description", "sanders-7.1.1/NPS26.116-61/74:user/release-keys");
+    property_override("ro.build.description", "sanders-7.1.1/NPS26.116-61-5/12:user/release-keys");
     property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "motorola/sanders/sanders:7.1.1/NPSS26.116-61-5/12:user/release-keys");
 
     // rmt_storage
