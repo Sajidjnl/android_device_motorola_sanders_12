@@ -1,20 +1,16 @@
 [
   {
-<<<<<<< HEAD
     "repository": "android_device_motorola_sanders",
-=======
-    "repository": "ValidusOs-Devices/device_motorola_sanders",
->>>>>>> parent of 23a9492... sanders: Build with clang 7.0
     "target_path": "device/motorola/sanders",
-    "branch": "8.1"
-  },
+    "branch": "frankenROM"
+  }
   {
     "repository": "BigTopKrazies/vendor_motorola_sanders",
     "target_path": "vendor/motorola/sanders",
     "branch": "8.1"
   },
   {
-    "repository": "GZR-Kernels/kernel_motorola_msm8953_sanders",
+    "repository": "Keertesh19/kernel_motorola_msm8953",
     "target_path": "kernel/motorola/msm8953",
     "branch": "8.1-ods"
   },
