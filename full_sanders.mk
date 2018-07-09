@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from potter device
 $(call inherit-product, device/motorola/sanders/device.mk)
 
+# Dexpreopt fixes
+$(call inherit-product, device/motorola/sanders/dexpreopt.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
 PRODUCT_NAME := full_sanders
