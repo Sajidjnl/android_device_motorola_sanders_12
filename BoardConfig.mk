@@ -134,8 +134,14 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_CRYPTFS_HW_PATH ?=vendor/qcom/opensource/cryptfs_hw
 
 # Enable dexpreopt to speed boot time
-WITH_DEXPREOPT := true
-WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+ifeq ($(HOST_OS),linux)
+   ifneq ($(TARGET_BUILD_VARIANT),eng)
+     ifeq ($(WITH_DEXPREOPT),)
+       WITH_DEXPREOPT := true
+       WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+     endif
+   endif
+endif
 
 # Display
 BOARD_USES_ADRENO := true
